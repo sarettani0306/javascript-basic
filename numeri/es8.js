@@ -26,6 +26,7 @@ function es8_3(a) {
   // 3. Restituisci il quadrato di a
   // TODO: scrivi qui la tua soluzione
   return a * a;
+  // a ** 2;
 }
 
 // --- NON MODIFICARE SOTTO ---
