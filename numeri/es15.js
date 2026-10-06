@@ -12,6 +12,8 @@
 function es15() {
   const netto = 100;
   // TODO: scrivi qui la tua soluzione
+  return { netto, iva: netto * 0.22, lordo: (netto * 0.22 + 100)}
+  //return netto + netto * 22 / 100  
 }
 
 // --- NON MODIFICARE SOTTO ---
