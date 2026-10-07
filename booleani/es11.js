@@ -13,6 +13,7 @@
 
 function es11(persona) {
   // TODO: scrivi qui la tua soluzione
+  return persona !== "" && persona >= 18 ? true : false;
 }
 
 // --- NON MODIFICARE SOTTO ---

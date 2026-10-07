@@ -16,6 +16,16 @@
 
 function es16(username, password) {
   // TODO: scrivi qui la tua soluzione
+  return username === "admin" && password === "1234"|| username === "user" && password === "abc" ? "completo" || username === "user" && password === "abc"?  "limitato": "negato" : "negato"
+  /*
+  if (username === "admin" && password === "1234") {
+    return "completo"
+  }
+  if (username === "user" && password === "abc") {
+    return "limitato"
+  }
+  return "negato"
+  */
 }
 
 // --- NON MODIFICARE SOTTO ---
