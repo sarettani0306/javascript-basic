@@ -13,7 +13,7 @@
 
 function es14(anno) {
   // TODO: scrivi qui la tua soluzione
-  return anno / 400 || anno / 4 && anno !/ 100 ? true : false
+  return anno % 400 === 0 || anno % 4 === 0 && anno % 100 !== 0? true : false
 }
 
 // --- NON MODIFICARE SOTTO ---
