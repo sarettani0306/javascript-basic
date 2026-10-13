@@ -13,17 +13,20 @@
 function es5_1(arr, elemento) {
   // 1. Restituisci l'indice di elemento in arr
   // TODO: scrivi qui la tua soluzione
+  return
 }
 
 function es5_2(arr, elemento) {
   // 2. Restituisci l'ultimo indice di elemento in arr
   // TODO: scrivi qui la tua soluzione
+  return
 }
 
 function es5_3(arr, elemento) {
   // 3. Se elemento è presente restituisci "trovato", altrimenti "non trovato"
   // Suggerimento: usa indexOf() !== -1
   // TODO: scrivi qui la tua soluzione
+  return
 }
 
 // --- NON MODIFICARE SOTTO ---

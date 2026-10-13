@@ -11,16 +11,19 @@
 function es6_1(arr) {
   // 1. Unisci gli elementi di arr con una virgola
   // TODO: scrivi qui la tua soluzione
+  return
 }
 
 function es6_2(arr) {
   // 2. Unisci gli elementi di arr con uno spazio
   // TODO: scrivi qui la tua soluzione
+  return
 }
 
 function es6_3(arr) {
   // 3. Unisci gli elementi di arr senza separatore (stringa vuota "")
   // TODO: scrivi qui la tua soluzione
+  return
 }
 
 // --- NON MODIFICARE SOTTO ---
