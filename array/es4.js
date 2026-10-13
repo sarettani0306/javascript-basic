@@ -11,19 +11,20 @@
 function es4_1(arr, elemento) {
   // 1. Restituisci true se arr contiene elemento
   // TODO: scrivi qui la tua soluzione
-  return
+  return arr.includes(elemento);
+  
 }
 
 function es4_2() {
   // 2. Verifica se ["rosso", "verde", "blu"] contiene "giallo"
   // TODO: scrivi qui la tua soluzione
-  return
+  return ["rosso", "verde", "blu"].includes("giallo");
 }
 
 function es4_3(arr, a, b) {
   // 3. Restituisci true se arr contiene sia a che b
   // TODO: scrivi qui la tua soluzione
-  return
+  return arr.includes(a) && arr.includes(b);
 }
 
 // --- NON MODIFICARE SOTTO ---
