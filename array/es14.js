@@ -14,20 +14,20 @@
 function es14_1(arr) {
   // 1. Trova il primo numero maggiore di 10
   // TODO: scrivi qui la tua soluzione
-  return
+  return arr.find( x => x > 10)
 }
 
 function es14_2(arr) {
   // 2. Trova l'indice della prima stringa che inizia con "A"
   // TODO: scrivi qui la tua soluzione
-  return
+  return arr.findIndex( x => x.startWith("A"))
 }
 
 function es14_3(arr) {
   // 3. Se l'array contiene il numero 5, restituisci "trovato", altrimenti "non trovato"
   // Suggerimento: usa find() o includes()
   // TODO: scrivi qui la tua soluzione
-  return
+  return arr.find( x => x.includes(5)) ? "trovato" : "non Trovato"
 }
 
 // --- NON MODIFICARE SOTTO ---
