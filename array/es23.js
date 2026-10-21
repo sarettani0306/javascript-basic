@@ -12,6 +12,7 @@
 
 function es23(numeri) {
   // TODO: scrivi qui la tua soluzione
+  return numeri.reduce((acc,item) => acc + item, 0)
 }
 
 // --- NON MODIFICARE SOTTO ---
