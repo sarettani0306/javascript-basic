@@ -14,6 +14,8 @@
 function es21() {
   const numeri = [1, 2, 2, 3, 4, 4, 5];
   // TODO: scrivi qui la tua soluzione
+  return numeri.filter(numeri.indexOf())
+   
 }
 
 // --- NON MODIFICARE SOTTO ---

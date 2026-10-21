@@ -12,6 +12,7 @@
 
 function es20(arr, elemento) {
   // TODO: scrivi qui la tua soluzione
+  return arr.indexOf(elemento)
 }
 
 // --- NON MODIFICARE SOTTO ---

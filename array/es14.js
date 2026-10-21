@@ -20,14 +20,14 @@ function es14_1(arr) {
 function es14_2(arr) {
   // 2. Trova l'indice della prima stringa che inizia con "A"
   // TODO: scrivi qui la tua soluzione
-  return arr.findIndex( x => x.startWith("A"))
+  return arr.findIndex( x => x.startsWith("A"))
 }
 
 function es14_3(arr) {
   // 3. Se l'array contiene il numero 5, restituisci "trovato", altrimenti "non trovato"
   // Suggerimento: usa find() o includes()
   // TODO: scrivi qui la tua soluzione
-  return arr.find( x => x.includes(5)) ? "trovato" : "non Trovato"
+  return arr.includes(5) ? "trovato" : "non trovato"
 }
 
 // --- NON MODIFICARE SOTTO ---
